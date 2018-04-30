@@ -119,9 +119,9 @@ int tick3(int state){
 			if(~PINA & 0x08 || code == 0xEE){
 				state = alarmoff;
 			}
-			//else if(~PINA & 0x10){
-				//state = alarmstate1;
-			//}
+			else if(~PINA & 0x10){
+				state = alarmstate1;
+			}
 			else{
 				state = alarmon;
 			}
@@ -153,7 +153,7 @@ int tick3(int state){
 			break;
 		case alarmoff:
 			PORTC = 0x01;
-			//PWM_off();
+			PWM_off();
 			break;
 		case alarmon:
 			PORTC = 0x02;
