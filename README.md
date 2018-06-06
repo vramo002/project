@@ -17,7 +17,7 @@ used Outside source to help write
 rc522.h
 https://github.com/asif-mahmud/MIFARE-RFID-with-AVR/blob/master/lib/avr-rfid-library/lib/mfrc522.c
 
-Version2
+Version2/n
 CS179J 
 cs179_project_slave_attiny4313.c
 cs179_project_master.c
