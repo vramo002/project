@@ -17,12 +17,12 @@ used Outside source to help write
 rc522.h
 https://github.com/asif-mahmud/MIFARE-RFID-with-AVR/blob/master/lib/avr-rfid-library/lib/mfrc522.c
 
-Version2/n
-CS179J 
-cs179_project_slave_attiny4313.c
-cs179_project_master.c
+Version2__
+CS179J__
+cs179_project_slave_attiny4313.c__
+cs179_project_master.c__
 
-CS120B/CS122A
+CS120B/CS122A__
 io.h
 io.c
 pwm.h
